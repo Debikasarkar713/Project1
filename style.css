@@ -1,0 +1,38 @@
+*{
+  margin: 0 auto;
+}
+body{
+  background-image: url('breakfast.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  color:white;
+}
+h1{
+text-shadow: 0 0 3px #033000;
+text-align: center;
+font-family: 'Libre Baskerville', serif;
+font-size: 50px;
+margin:  0 0 0 0;
+}
+
+.ring img{
+  margin: -50px 0 0 0;
+}
+
+.green img{
+  margin: -210 0 0 890;
+}
+
+.zoom img{
+  margin: 290px 0 0 0;
+}
+
+.necklace img{
+  margin: -200 0 0 890px;
+}
+
+footer {
+  text-align: center;
+  margin: -120 0 0 10;
+}
