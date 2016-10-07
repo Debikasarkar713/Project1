@@ -1,17 +1,26 @@
+function rainingDiamonds() {
+    var shineBright = $(),
+        qt = 20;
+    for (var i = 0; i < qt; ++i) {
+        var tiffanyDiamond = $('.diamond');
+        $tiffanyDiamond.css({
+            'top': (Math.random() * ('#store').width()) + 'px',
+            'left': (-Math.random() * ('#store').width()) + 'px'
 
-
-
-
-function rainingDiamonds(){
-  var shineBright = $(), qt = 20;
-  for (var i = 0; i < qt; ++i){
-    var tiffanyDiamond = $('.diamond')
-  }
+        });
+          var shineBright = $shineBright.add($tiffanyDiamond);
+    }
+    $('#store').prepend($tiffanyDiamond);
 }
 
 
 
+
+
+
 /*
+This was to check if it was moving.
+
 function movingDiamond(){
 var $diamond = $('#diamond');
 var distance = 1200;

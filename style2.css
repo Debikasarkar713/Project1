@@ -3,16 +3,23 @@ body{
   background-color: black;
 }
 
-#board {
+#store {
   background-color: red;
-  width:;
+  width:800px;
+  height:900px;
+  background-position: center;
 }
 
 .diamond{
   background-image: url('diamond.gif');
   background-color: red;
-  width:20px;
-  height:20px;
+  width:5px;
+  height:5px;
   position:absolute;
 
+}
+
+.diamond img{
+  width: 30px;
+  height: 30px;
 }
