@@ -1,25 +1,27 @@
-body{
+body {
 
-  background-color: black;
+    background-color: black;
 }
 
-#store {
-  background-color: red;
-  width:800px;
-  height:900px;
-  background-position: center;
+
+.diamond, .diamond2, .diamond3, .diamond4, .diamond5, .diamond6, .diamond7, .diamond8, .diamond9, .diamond10{
+    width: 2px;
+    height: 2px;
+    display: inline-block;
+    margin: 50px;
+}
+.flex-items img {
+  width:25px;
+  height:25px;
+}
+#flex-container{
+    border: 3px red dotted;
+    width: 650px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.diamond{
-  background-image: url('diamond.gif');
-  background-color: red;
-  width:5px;
-  height:5px;
-  position:absolute;
-
-}
-
-.diamond img{
-  width: 30px;
-  height: 30px;
-}
