@@ -4,7 +4,9 @@
 
 function rainingDiamonds(){
   var shineBright = $(), qt = 20;
-  for var i = 0; i < qt;
+  for (var i = 0; i < qt; ++i){
+    var tiffanyDiamond = $('.diamond')
+  }
 }
 
 
