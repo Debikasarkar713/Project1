@@ -4,11 +4,12 @@ body {
 }
 
 
-.diamond, .diamond2, .diamond3, .diamond4, .diamond5, .diamond6, .diamond7, .diamond8, .diamond9, .diamond10{
-    width: 2px;
-    height: 2px;
-    display: inline-block;
-    margin: 50px;
+.diamond {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  display: inline-block;
+  margin: 50px;
 }
 .flex-items img {
   width:25px;
