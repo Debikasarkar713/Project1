@@ -16,25 +16,20 @@ font-size: 50px;
 margin:  50 0 -110 0;
 }
 
-.ring img{
-  margin: 290px 0 0 0;
-}
 
 .necklace img{
   margin: -50px 0 0 0;
 }
 
-.green img{
-  margin: -700 0 -800 890;
-}
 
 .zoom img{
-  margin: -200 0 0 890px
+  margin: -100 0 0 890px
 }
 
 
 
 footer {
   text-align: center;
-  margin: -120 0 0 10;
+  margin: 0 0 0 10;
+
 }
