@@ -1,3 +1,4 @@
+//DOM event loader
 $(document).ready(function() {
 
 
@@ -32,4 +33,14 @@ $(document).ready(function() {
         }, 100);
 
     }
+    $('.diamante').click(runCounter);
 });
+//defining counter when clicked
+var counter = 0;
+//function that runs when clicked diamond
+function runCounter() {
+  counter++;
+  // debugger
+}
+
+//even listener for diamonds
