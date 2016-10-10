@@ -33,14 +33,51 @@ $(document).ready(function() {
         }, 100);
 
     }
-    $('.diamante').click(runCounter);
+
+    fallingD();
+
+
+
+    function fallingD() {
+
+        var stop = setInterval(function() {
+            $('.diamond1').css({ 'top': '+=10px' });
+            console.log($('.flex-items').innerHeight())
+            if ($('.diamond1').offset().top > $('#flex-container').innerHeight()) {
+                clearInterval(stop);
+            }
+        }, 100);
+
+    }
+
+
+
+    $('.dia').click(runCounter);
 });
 //defining counter when clicked
 var counter = 0;
 //function that runs when clicked diamond
 function runCounter() {
   counter++;
-  // debugger
+  debugger
 }
+// time count
+var sec = 0;
+$('#clock span').html(sec);
+//by one second
+setInterval(function(){
+  sec = sec + 1;
+  $('#clock span').html(sec);
+}, 1000);
 
-//even listener for diamonds
+//event listener for diamonds
+
+
+
+
+
+
+
+
+
+

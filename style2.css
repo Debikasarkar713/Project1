@@ -15,19 +15,23 @@ body {
 
 .diamond {
   position: absolute;
-  width: 2px;
-  height: 2px;
+  width: 5px;
+  height: 5px;
   display: inline-block;
-  margin: 50px;
+  margin:100px;
 }
 .flex-items img {
-  width:25px;
-  height:px;
+  width:28px;
+  margin:0 0 0 0;
 }
 #flex-container{
     border: 3px white;
     width: 650px;
     height: 650px;
 
+}
+
+section{
+  color: white;
 }
 
