@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 
 
-   /* runThrough();
+    /* runThrough();
 
     function runThrough() {
 
@@ -19,8 +19,6 @@ $(document).ready(function() {
 
 
     fallingDiamond();
-
-
 
     function fallingDiamond() {
 
@@ -58,26 +56,22 @@ $(document).ready(function() {
 var counter = 0;
 //function that runs when clicked diamond
 function runCounter() {
-  counter++;
-  debugger
+    counter++;
+    if ()
+
 }
+
+
 // time count
 var sec = 0;
 $('#clock span').html(sec);
 //by one second
-setInterval(function(){
-  sec = sec + 1;
-  $('#clock span').html(sec);
+var end = setInterval(function() {
+    sec = sec + 1;
+    $('#clock span').html(sec);
+    if (sec == 10) {
+        $()
+    }
 }, 1000);
 
 //event listener for diamonds
-
-
-
-
-
-
-
-
-
-
