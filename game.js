@@ -2,28 +2,13 @@
 $(document).ready(function() {
 
 
-
-    /* runThrough();
-
-    function runThrough() {
-
-
-
-      for (var i = 0; i < .length ; i++) {
-
-      }
-
-        }
-*/
-
-
-
     fallingDiamond();
 
     function fallingDiamond() {
 
         var stop = setInterval(function() {
             $('.diamond').css({ 'top': '+=10px' });
+            //
             console.log($('#flex-container').innerHeight())
             if ($('.diamond').offset().top > $('#flex-container').innerHeight()) {
                 clearInterval(stop);
@@ -32,11 +17,10 @@ $(document).ready(function() {
 
     }
 
-    fallingD();
 
+    dJewels();
 
-
-    function fallingD() {
+    function dJewels() {
 
         var stop = setInterval(function() {
             $('.diamond1').css({ 'top': '+=10px' });
@@ -45,33 +29,48 @@ $(document).ready(function() {
                 clearInterval(stop);
             }
         }, 100);
-
     }
-
 
 
     $('.dia').click(runCounter);
 });
 //defining counter when clicked
-var counter = 0;
+        var counter = 0;
 //function that runs when clicked diamond
 function runCounter() {
     counter++;
-    if ()
+    $('#score').html('Score: ' + counter);
+    if (counter === 10) {
+        // $('#endscore').html(counter);
+        $('.dia').off('click', runCounter);
+
+    }
+    // connect both
+
 
 }
 
 
+
 // time count
 var sec = 0;
-$('#clock span').html(sec);
+//start timer at 0
+
+$('#clock').html('Clock: ' + sec);
 //by one second
 var end = setInterval(function() {
     sec = sec + 1;
-    $('#clock span').html(sec);
-    if (sec == 10) {
-        $()
+    // adding value by 1
+    $('#clock').html('Clock: ' + sec);
+    if (sec === 10) {
+        //if value is equal to 10
+        // $('#endgame').show('medium');
+        //display value
+        $('#endgame').html(sec);
+        clearInterval(end);
+        //stop timer
     }
 }, 1000);
 
 //event listener for diamonds
+$('.diamond1').click();
